@@ -1,8 +1,8 @@
 FROM alpine:latest
 MAINTAINER Darron Froese <darron@froese.org>
 
-ENV HUGO_VERSION=0.17
-ENV CADDY_VERSION=0.9.3
+ENV HUGO_VERSION=0.20.2
+ENV CADDY_VERSION=0.10.0
 
 RUN apk add --update wget ca-certificates && \
   cd /tmp/ && \
